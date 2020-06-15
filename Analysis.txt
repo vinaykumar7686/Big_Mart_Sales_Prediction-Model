@@ -1,0 +1,30 @@
+                                    >> Univariate Analysis <<
+
+Item_Identifier               object
+Item_Weight                  float64
+Item_Fat_Content              object
+Item_Visibility              float64
+Item_Type                     object
+Item_MRP                     float64
+Outlet_Identifier             object
+Outlet_Establishment_Year      int64
+Outlet_Size                   object
+Outlet_Location_Type          object
+Outlet_Type                   object
+Item_Outlet_Sales            float64(Sale of product in particular store)
+
+
+
+>   Most of the items have visibility between 0 to 15 % , with a very few items left whose visibility is above 15%
+        There are large number of items who have zero visibility.
+
+
+                                    >> Bivariate Analysis <<
+
+>   With increase in Item MRP , Item_Outlet Sales also increases
+    Grocery type  stores have lowest Item_Outlet_Sales
+    SuperMarket type3 have highest Item_Outlet_Sales
+
+>   Item_Outlet_Sales is highest for SuperMarket type3 and lowest for Grocery stores
+
+
